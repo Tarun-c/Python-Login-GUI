@@ -77,7 +77,7 @@ def register_user():
     password_info = password.get()
     Email_info = Email.get()
 
-    file = open('username_info.txt', "a+")
+    file = open('Username_info.txt', "a+")
     file.write('Username '+ username_info + '\n')
     file.write( 'Password '+password_info + '\n')
     file.write('Email ID  ' + Email_info + '\n')
@@ -98,7 +98,7 @@ def login_verify():
     username_login_entry.delete(0, END)
     password_login_entry.delete(0, END)
     
-    file1 = open('username_info.txt', "r")
+    file1 = open('Username_info.txt', "r")
     check = file1.read().splitlines()
     print(username1,password1,check)
     if username1 in check:
