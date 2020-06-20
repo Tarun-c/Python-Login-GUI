@@ -1,0 +1,8 @@
+# See the installation instructions at https://github.com/Tarun-c/Python-login-GUI
+
+##### GUI package, The Tkinter library comes in default with every Python installation
+
+##### Other important library
+scikit-learn==0.22
+pandas
+numpy
